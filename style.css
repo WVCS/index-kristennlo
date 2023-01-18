@@ -1,6 +1,11 @@
 body{
   background-color: #D1BCE3;
 }
+h3{
+  color:#533745;
+  font-size: 100%;
+    font-family: "Montserrat";
+}
 h1{
   color:#533745;
   font-size: 300%;
