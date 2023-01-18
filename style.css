@@ -1,5 +1,4 @@
-body {
-
+body{
   background-color: #D1BCE3;
 }
 h1{
@@ -10,5 +9,9 @@ h1{
 p{ color:#533745;
   font-size: 100%;
     font-family: "Montserrat";
-
+}
+img{
+  width:20%;
+    height:auto;
+  
 }
