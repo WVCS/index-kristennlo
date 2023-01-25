@@ -1,4 +1,4 @@
-navbar {
+navbar{
   list-style-type: none;
   overflow: hidden;
   width: 100vw;
@@ -27,6 +27,7 @@ navbar {
 body{
   background-color: #D1BCE3;
 }
+
 h3{
   color:#533745;
   font-size: 100%;
