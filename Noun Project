@@ -1,0 +1,66 @@
+<html>
+   <center>
+    <h1> Coffee </h1>
+  </center>  
+<head>
+ <center>
+  <p> Yummy Coffee Shops 
+    <ul>
+    <li> Peets </li>
+    <li> Starbucks </li>
+    <li> Coffee Bean </li>
+    <li> Dunkin </li>
+    <li> Better Buzz </li>
+    <li> Dutch Bros </li>
+      </p>
+  
+</head>
+  <center>
+  <table>
+    <tr>
+    <th> Flavors </th>
+    <th> Types </th>
+    <th> Additions </th>
+    </tr>
+    
+    <tr>
+      <td> Vanilla </td>
+      <td> Americano  </td>
+      <td> Sweet Cream </td>
+    </tr>
+    
+    <tr>
+      <td> Caramel </td>
+      <td> Cold Brew </td>
+      <td> Shots </td>
+    </tr>
+    
+     <tr>
+      <td> Hazelnut</td>
+      <td> Cappuccino</td>
+      <td> Steamed Milk</td>
+    </tr>
+    
+    <tr>
+      <td> Pumpkin Spice</td>
+      <td> Latte</td>
+      <td> Ice</td>
+    </tr>
+    
+    <tr>
+      <td> French Vanilla</td>
+      <td> Macchiato</td>
+      <td> Syrups</td>
+    </tr>
+    
+  </table>
+  </center>
+  
+  <center>
+  <img src= https://www.tastingtable.com/img/gallery/coffee-brands-ranked-from-worst-to-best/l-intro-1645231221.jpg> </img>
+
+<img src= https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/newscms/2019_33/2203981/171026-better-coffee-boost-se-329p.jpg> </img>
+
+</center>
+  
+</html>
