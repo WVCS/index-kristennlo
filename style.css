@@ -1,3 +1,30 @@
+nav {
+  list-style-type: none;
+  overflow: hidden;
+  
+  width: 100vw;
+  background-color: white;
+  left: 0;
+  right: 0;
+  margin: 0;
+}
+
+.navbar{
+  display: inline;
+  float: right;
+  padding: 11px;
+}
+
+.navbar a{
+  text-decoration: none;
+  color: brown;
+}
+
+.navbar a:hover {
+  background-color: #AC8C6D;
+  color: black;
+}
+
 body{
   background-color: #D1BCE3;
 }
@@ -16,7 +43,8 @@ p{ color:#533745;
     font-family: "Montserrat";
 }
 img{
-  width:70%;
+  width:50%;
     height:auto;
   
 }
+
