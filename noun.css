@@ -1,4 +1,4 @@
-nav {
+.navbar {
   list-style-type: none;
   overflow: hidden;
   
@@ -9,18 +9,18 @@ nav {
   margin: 0;
 }
 
-.navli{
+.navbar{
   display: inline;
   float: right;
   padding: 11px;
 }
 
-.navli a{
+.navbar a{
   text-decoration: none;
   color: brown;
 }
 
-.navli a:hover {
+.navbar a:hover {
   background-color: #AC8C6D;
   color: black;
 }
