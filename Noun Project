@@ -1,5 +1,12 @@
 <html>
 <link rel="stylesheet" href="Noun Project CSS">
+   <body>
+    <nav>
+      <li class="navli"> <a href="index.html"> HOME </a> </li>
+
+    </nav>
+    
+     <center>
    <center>
     <h1> Coffee </h1>
   </center>  
