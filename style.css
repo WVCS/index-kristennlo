@@ -1,17 +1,9 @@
-navbar{
-  list-style-type: none;
-  overflow: hidden;
-  width: 100vw;
-  background-color: white;
-  left: 0;
-  right: 0;
-  margin: 0;
-}
 
 .navbar{
   display: inline;
   float: right;
   padding: 11px;
+  color: white;
 }
 
 .navbar a{
