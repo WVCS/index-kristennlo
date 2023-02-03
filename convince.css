@@ -1,29 +1,18 @@
-
-navbar {
-  list-style-type: none;
-  overflow: hidden;
-  font: Mont Blanc;
-  width: 100vw;
-  background-color: white;
-  left: 0;
-  right: 0;
-  margin: 0;
-}
-
 .navbar{
   display: inline;
   float: right;
   padding: 11px;
+  color: white;
 }
 
 .navbar a{
   text-decoration: none;
-  color: #FFF9EC;
+  color: solid pink;
 }
 
 .navbar a:hover {
-  background-color: #FB6376;
-  color: #FFF9EC;
+  background-color: ##AC8066;
+  color: black;
 }
 
 body{
