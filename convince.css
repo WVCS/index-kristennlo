@@ -7,12 +7,12 @@
 
 .navbar a{
   text-decoration: none;
-  color: solid pink;
+  color: #FFF9EC;
 }
 
 .navbar a:hover {
-  background-color: ##AC8066;
-  color: black;
+  background-color: #FB6376;
+  color: #FFF9EC;
 }
 
 body{
