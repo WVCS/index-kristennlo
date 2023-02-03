@@ -1,1 +1,99 @@
 
+navbar {
+  list-style-type: none;
+  overflow: hidden;
+  font: Mont Blanc;
+  width: 100vw;
+  background-color: white;
+  left: 0;
+  right: 0;
+  margin: 0;
+}
+
+.navbar{
+  display: inline;
+  float: right;
+  padding: 11px;
+}
+
+.navbar a{
+  text-decoration: none;
+  color: #FFF9EC;
+}
+
+.navbar a:hover {
+  background-color: #FB6376;
+  color: #FFF9EC;
+}
+
+body{
+  background-color: #FCB1A6;
+}
+
+p{
+  color:#FFF9EC;
+  font-size: 100%;
+  font-family: "Mont Blanc"
+}
+ul{
+  list-style-type:circle;
+  line height: 80%;
+  color:#FFF9EC;
+  font-size: 150%;
+  font-family: "Mont Blanc"
+}
+
+h1{
+  color:#F44174;
+  font-size: 300%;
+  font-family: "Mont Blanc"
+}
+
+h2{
+  color:#F44174;
+  font-family: "Mont Blanc"
+    font-size: 100%
+}
+
+h3{
+  color:#F44174;
+  font-family: "Mont Blanc"
+    font-size: 100%
+}
+
+table, tr, th, td {
+  border: solid pink 1px;
+  color:#FFF9EC;
+  font-family: "Mont Blanc"
+  
+}
+
+td{
+  text-align: center;
+}
+table{
+  width: 50%;
+}
+
+img{
+   width:45%;
+    height:80%;
+}
+
+#text{
+    width: 80%;
+  border: 3px solid pink;
+  background-color: lightblue;    
+  text-align: center;
+}
+
+#first{
+  background-color: pink;
+    width: 50%;
+}
+
+#second{
+  border: 3px solid pink;
+  background-color: lightblue;    
+  text-align: center;
+}
