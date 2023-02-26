@@ -1,7 +1,7 @@
 .navbar{
   display: inline;
   float: right;
-  padding: 11px;
+  padding: 2px;
   color: white;
 }
 
@@ -17,13 +17,14 @@
 
 .nav-logo img{
   width: 250px;
-  margin-right: 1200px;
+  margin-right: 100px;
+   float: right;
 }
 .nav-link{
   flex: 1;
 }
 .nav-link ul{
-  center: 50%
+  center: 20%
   display: inline;
 }
 
