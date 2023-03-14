@@ -85,3 +85,61 @@ img{
     height:auto;
   
 }
+
+.wrapper {
+  background-color: black;
+  width: 100vw;
+  height: 100vh;
+  align-items: center;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.A{ /*height and width are set PIXELS */
+  background-color: white;
+  height: 150px;
+  width: 150px;
+  align: center;
+  font-family: Bungee;
+}
+
+.B{ /*height and width are set PIXELS */
+  background-color: white;
+  height: 150px;
+  width: 150px;
+  align: center;
+  font-family: Bungee;
+}
+
+.C{ /*height and width are set PIXELS */
+  background-color: white;
+  height: 150px;
+  width: 150px;
+  align: center;
+  font-family: Bungee;
+}
+
+.D{ /*height and width are set PIXELS */
+  background-color: white;
+  height: 150px;
+  width: 150px;
+  align: center;
+  font-family: Bungee;
+}
+
+.E{ /*height and width are set PIXELS */
+  background-color: white;
+  height: 150px;
+  width: 150px;
+  align: center;
+  font-family: Bungee;
+}
+  
+@media only screen and (max-width: 1024px) {
+  .wrapper{
+    flex-direction: column;
+  }
+  body{
+    background-color: black;
+  }
+}
