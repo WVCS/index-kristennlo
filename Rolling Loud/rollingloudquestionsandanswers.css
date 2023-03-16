@@ -85,3 +85,39 @@ img{
     height:auto;
   
 }
+
+table, tr, th, td {
+  border: solid white 1px;
+  color:#8B95C9;
+  font-family: "Bungee"
+  
+}
+
+td{
+  text-align: center;
+}
+table{
+  width: 90%;
+}
+
+@media screen and (max-width: 600px) {
+  .navbar a:not(:first-child) {display: none;}
+  .navbar a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .navbar.responsive {position: relative;}
+  .navbar.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .navbar.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
