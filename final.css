@@ -1,1 +1,131 @@
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  background-color: #000004;
+}
 
+.navbar a {
+  float: right;
+  font-size: 16px;
+  color: #FED766;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: Lucida Console;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: #FED766;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: Lucida Console;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: #FE4A49;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+body{
+  background-color: #009FB7;
+}
+
+h1{
+  font-size: 300%;
+  color: #81E4DA;
+  font-family: Lucida Console;
+}
+
+h2{
+  font-size: 150%;
+  color:  #81E4DA;
+  font-family: Lucida Console;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  background-color: #FE4A49;
+  padding: 10px;
+}
+.grid-item {
+  background-color: #FED766;
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 20px;
+  text-align: center;
+  font-family: Lucida Console;
+}
+
+img{
+  width: 100%;
+  height: 80%;
+}
+
+table, tr, th, td {
+  border: solid yellow 4px;
+  color:#81E4DA;
+  font-family: Lucida Console;
+  font-size: 110%
+}
+
+td{
+  text-align: center;
+}
+table{
+  width: 80%;
+}
+
+@media screen and (max-width: 600px) {
+  .navbar.responsive {position: relative;}
+  .navbar.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .navbar.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+.container {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  padding-top: 56.25%; /* 16:9 Aspect Ratio */
+}
+.responsive-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+  }
+}
