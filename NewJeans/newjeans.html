@@ -1,7 +1,7 @@
 <html>
   <link rel="stylesheet" href="newjeans.css">
-  <link rel="icon" type="image/x-icon" href="Kristen Lo Title Page (2).png">  
-  <title> Kristen Lo Homepage </title>
+  <link rel="icon" type="image/x-icon" href="NewJeans.png">  
+  <title> NewJeans Main </title>
   </head>
    
    <div class="navbar">
@@ -10,11 +10,17 @@
     <button class="dropbtn">YEAR OF THE RABBIT
       <i class="fa fa-caret-down"></i>
     </button>
-  </div>
+    <div class="dropdown-content">
+      <a href="newjeanssong.html">SONGS</a>
+    </div>
+     </div>
 </div>
 <br>
 </br>
 <center>
+  <h2> WE ARE NEWJEANS </h2>
+  <br>
+  </br>
 
 <div class="slideshow-container">
 
@@ -90,7 +96,60 @@ function showSlides(n) {
   dots[slideIndex-1].className += " active";
 }
 </script>
+  <br>
+  </br>
 
+  <div class="grid-container">
+  <div class="grid-item"> <img src="NewJeans.png"></div>
+  
+  <div class="grid-item">
+    <h1> Become a part of our fan base! </h1>
+    <form onsubmit="alert('YOU ARE NOW A BUNNY')">
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname"><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname"><br>
+   <input type="submit" value="Submit">
+</form>
+    
+  </div>  
+  <div class="grid-item"> <img src="NewJeans.png"></div>
+      
+</div>
+  <br>
+</br>
+
+<!-- The four columns -->
+<div class="row">
+  <div class="column">
+    <img src="https://www.billboard.com/wp-content/uploads/2022/09/newjeans-press-courtesy-hybe-2022-billboard-1548.jpg" alt="Billboard Interview" style="width:100%" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="https://www.rollingstone.com/wp-content/uploads/2022/12/NewJeans-Official-Photo.jpg" alt="First Album Release Photography" style="width:100%" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="https://www.billboard.com/wp-content/uploads/2023/01/NewJeans-2023-cr-ADOR-billboard-1548.jpg?w=1024" alt="OMG Song Debut Attire" style="width:100%" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="https://www.billboard.com/wp-content/uploads/2022/10/newjeans-babyshark-cr-Pinkfong-2022-billboard-1548.jpg" alt="Hype Boy Song Debut Attire" style="width:100%" onclick="myFunction(this);">
+  </div>
+</div>
+
+<div class="container">
+  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+  <img id="expandedImg" style="width:100%">
+  <div id="imgtext"></div>
+</div>
+
+<script>
+function myFunction(imgs) {
+  var expandImg = document.getElementById("expandedImg");
+  var imgText = document.getElementById("imgtext");
+  expandImg.src = imgs.src;
+  imgText.innerHTML = imgs.alt;
+  expandImg.parentElement.style.display = "block";
+}
+</script>
 </body>
   
 </html>
