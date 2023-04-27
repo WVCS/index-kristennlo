@@ -59,13 +59,14 @@
   display: block;
 }
 
-.responsive{
-  width:50wh;
-  height: 50wh;
-}
 
 body{
  background-color: #93E7A4;
+}
+
+.responsive{
+  width:70wh;
+  Height: 70wh;
 }
 
 button{
