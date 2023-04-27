@@ -59,6 +59,10 @@
   display: block;
 }
 
+.responsive{
+  width:90wh;
+  height: 90wh;
+}
 
 body{
  background-color: #93E7A4;
