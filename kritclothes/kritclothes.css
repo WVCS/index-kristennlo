@@ -1,1 +1,109 @@
 
+.navbar {
+  overflow: hidden;
+  background-color: #9F86C0;
+}
+
+.navbar a {
+  float: right;
+  font-size: 16px;
+  color: #BE95C4;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: Papyrus;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color:  #BE95C4;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: Papyrus;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: #F3D1E4;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #F3D1E4;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: #BE95C4;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+body{
+  background-color: #D2ACD8;
+}
+
+
+* {box-sizing: border-box}
+
+/* Container needed to position the overlay. Adjust the width as needed */
+.SummerClothes {
+  position: relative;
+  width: 50%;
+  max-width: 300px;
+}
+
+/* Make the image to responsive */
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/* The overlay effect - lays on top of the container and over the image */
+.overlay {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1;
+  width: 100%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+  font-family: Papyrus;
+}
+
+/* When you mouse over the container, fade in the overlay title */
+.SummerClothes:hover .overlay {
+  opacity: 1;
+}
+
+.wrapper{
+  display: flex;
+}
+
