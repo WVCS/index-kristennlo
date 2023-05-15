@@ -133,6 +133,7 @@ body{
   cursor: pointer;
   border-radius: 5px;
   font-family: Papyrus;
+  cursor: not-allowed;
 }
 
 .container .btn:hover {
