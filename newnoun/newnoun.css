@@ -100,3 +100,16 @@ img{
   height:300px;
   width:500px;
 }
+table, tr, th, td {
+  border: solid black 1px;
+  color:#E1D4B9;
+  font-family: Monospace;
+  
+}
+
+td{
+  text-align: center;
+}
+table{
+  width: 100%;
+}
