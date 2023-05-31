@@ -1,120 +1,115 @@
-<html>
-  <head>
-  <link rel="stylesheet" href="newnoun.css">
-  <link rel="icon" type="image/x-icon" href="Krit Clothes.png">  
-  <title> KritClothes </title>
-  </head>
-   
-   <div class="navbar">
-  <a href="../index.html">Home</a>
-  <div class="dropdown">
-    <button class="dropbtn">COFFEE
-    </button>
-  </div>
-  </div>
-  <br>
-  </br>
+.navbar {
+  overflow: hidden;
+  background-color: #7D7461;
+}
 
-<center>
+.navbar a {
+  float: right;
+  font-size: 16px;
+  color:#B0A990;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: Monospace;
+}
 
-  <div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="https://s23209.pcdn.co/wp-content/uploads/2015/07/Perfect-Iced-CoffeeIMG_0074.jpg">
-      <img src="https://s23209.pcdn.co/wp-content/uploads/2015/07/Perfect-Iced-CoffeeIMG_0074.jpg" alt="Cold Brew">
-    </a>
-    <div class="desc">Cold Brew</div>
-  </div>
-</div>
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
 
-<div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="https://lifestyleofafoodie.com/wp-content/uploads/2022/07/Starbucks-caramel-macchiato-latte-9-of-14.jpg">
-      <img src="https://lifestyleofafoodie.com/wp-content/uploads/2022/07/Starbucks-caramel-macchiato-latte-9-of-14.jpg" alt="Macchiato">
-    </a>
-    <div class="desc">Caramel Macchiato</div>
-  </div>
-</div>
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: #B0A990;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: Monospace;
+  margin: 0;
+}
 
-<div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="https://images.unsplash.com/photo-1621135177072-57c9b6242e7a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8Y29mZmVlJTIwYWVzdGhldGljfGVufDB8fDB8fHww&w=1000&q=80">
-      <img src="https://images.unsplash.com/photo-1621135177072-57c9b6242e7a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8Y29mZmVlJTIwYWVzdGhldGljfGVufDB8fDB8fHww&w=1000&q=80" alt="Cappuccino">
-    </a>
-    <div class="desc">Cappuccino</div>
-  </div>
-</div>
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: #635C51;
+}
+body{
+  background-color:#3D362C;
+}
+div.gallery {
+  border: 1px solid #ccc;
+}
 
-<div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="https://izzycooking.com/wp-content/uploads/2022/10/Latte-Macchiato-01.jpg">
-      <img src="https://izzycooking.com/wp-content/uploads/2022/10/Latte-Macchiato-01.jpg" alt="Cafe Latte">
-    </a>
-    <div class="desc">Cafe Latte</div>
-  </div>
-</div>
+div.gallery:hover {
+  border: 1px solid #777;
+}
 
-<div class="clearfix"></div>
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+  font-family: Monospace;
+  color: #7D7461;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+button{
+  background-color:#7D7461;
+  color:#B0A990;
+  padding: 2%;
+  border: pink 1px;
+  font-family: Monospace;
+}
+
+button:hover{
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.4), 0 17px 50px 0 rgba(0,0,0,0.2);
+}
+
+img{
+  height:300px;
+  width:500px;
+}
+table, tr, th, td {
+  border: solid black 1px;
+  color:#E1D4B9;
+  font-family: Monospace;
   
-  <br>
-  </br>
-  <center>
+}
 
-<img id="MyImage" src="https://i.ytimg.com/vi/-Wr9DoMtaNA/maxresdefault.jpg">
-
-<br>
-</br>
-
-<button type="button" onclick='document.getElementById("MyImage").src = "https://athome.starbucks.com/sites/default/files/2021-08/Ice.jpg" ' > STEP 1: get a glass of ice </button>
-<button type="button" onclick='document.getElementById("MyImage").src = "https://heyjoecoffee.com/wp-content/uploads/2022/08/Pour-Cold-Brew-Over-Ice.jpg" ' >STEP 2: pour in coffee </button>
-<button type="button" onclick='document.getElementById("MyImage").src = "https://imbibemagazine.com/wp-content/uploads/2022/07/cold-brew-coffee-new-orleans-chicory-crdt-john-valls-crop.jpg" ' >STEP 3: add creamer or milk </button>
-
-<br>
-</br>
-<center>
-  <table>
-    <tr>
-    <th> Best Brands </th>
-    <th> Popular Drinks </th>
-    <th> Price Range </th>
-    </tr>
-    
-    <tr>
-      <td> Starbucks </td>
-      <td> Pumpkin Spice Latte  </td>
-      <td> $$ </td>
-    </tr>
-    
-    <tr>
-      <td> Peets </td>
-      <td> Cold Brew Fog </td>
-      <td> $$ </td>
-    </tr>
-    
-     <tr>
-      <td> Better Buzz</td>
-      <td> Best Drink Ever</td>
-      <td> $$$</td>
-    </tr>
-    
-    <tr>
-      <td> Dutch Bros </td>
-      <td> The Bob</td>
-      <td> $</td>
-    </tr>
-    
-    <tr>
-      <td> The Coffee Bean</td>
-      <td> Vanilla Latte</td>
-      <td> $</td>
-    </tr>
-    
-  </table>
-  </center>
-<br>
-</br>
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/adCKCOCSGpg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-
-</html>
-    
+td{
+  text-align: center;
+}
+table{
+  width: 100%;
+}
